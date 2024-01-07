@@ -1,0 +1,39 @@
+/* 
+  아래 css는 test 후 삭제해주세요.
+*/
+
+.test {
+  font-size: large;
+  background-color: aquamarine;
+}
+
+/***********************************************/
+
+.react-calendar__navigation {
+  display: flex;
+  padding: 20px 12px;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  background-color: green;
+  text-align: center;
+  padding : 4px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__days__day {
+  display: flex;
+  flex-direction: column;
+  padding : 4px;
+  min-height: 100px;
+  border: 1px solid blueviolet;
+}
+
+.react-calendar__navigation__arrow {
+  margin: 2px;
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 100%;
+  background-color: #ffff96;
+}
